@@ -135,13 +135,10 @@ background: radial-gradient(#4b6cb6, #182848);
     color: var(--white);
 }
 
-
-.nav .nav-brand a{
-    font-size: 1.6rem;
-    padding: 1rem 0;
-    display: block;
-    font-family: var(--Lexend);
-    
+.nav .nav-brand img{
+    height: auto;
+    width: 160px;
+    position: relative;
 }
 .nav .social{
     padding: 1.4rem 0; 
@@ -375,6 +372,7 @@ color: black;
 
 
 
+
 /*--------x-----------sidebar-----x---------*/
 
 /*--------x-------Main Content------x-----*/
@@ -426,6 +424,19 @@ footer.footer .follow div i{
     color: var(--white);
     padding: 0 .4rem;
 }
+footer.footer .container .move-up{
+    position: absolute;
+    right: 6%;
+    bottom: auto;
+
+}
+footer.footer .container .move-up span{
+    color: var(--midnight);
+}
+footer.footer .container .move-up span:hover{
+    color: var(--white);
+    cursor: pointer;
+}
 footer.footer .rights{
     justify-content: center;
     font-family: var(--josefin);
@@ -434,18 +445,7 @@ footer.footer .rights h4{
     color: var(--white);
 }
 
-footer.footer .move-up{
-    position: absolute;
-    right: 6%;
-    top: 50%;
-}
-footer.footer .move-up span{
-    color: var(--midnight);
-}
-footer.footer .move-up span:hover{
-    color: var(--white);
-    cursor: pointer;
-}
+
 /*-------x---------footer------x---------*/
 
 /*viewport less than or equal to 1130px*/
